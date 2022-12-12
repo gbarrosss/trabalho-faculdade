@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Trabalho teste</title>
+  <title>Cassandra Rodrigues</title>
+  <link rel="icon" href="./imagens/logotipo.svg" type="image/svg+xml">
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,55 +22,87 @@
 
 
 <body>
-  <div class="tela-inicio">
-    <header class="menu">
-      <div class="menu-logotipo">
-        <img src="./imagens/logo1.svg" width="80" height="80" alt="">
-        <p>Cassandra Rodrigues</p>
-      </div>
-      <div class="menu-botoes">
-        <a href="#agende">Agende comigo</a>
-        <a href="">Cursos</a>
-        <a href="">Sobre</a>
-        <a href="">Contato</a>
-      </div>
-    </header>
+  <header class="menu">
+    <div class="menu-logotipo">
+      <img src="./imagens/logotipo.svg" width="80" height="80" alt="">
+    </div>
+    <div class="menu-botoes">
+      <a href="#agende">Agende comigo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a href="./CURSOS.html">Cursos</a>
+    </div>
+  </header>
 
-    <section class="inicio">
-      <div class="inicio-texto">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <p>Curabitur ut tristique neque, vel egestas neque.</p>
-      </div>
-      <div class="inicio-imagem">
-        <img src="./imagens/imginicio3.png"  alt="">
-      </div>
-    </section>
-  </div>
+  <section class="inicio">
+    <div class="inicio-texto">
+      <h1>Cassandra Rodrigues</h1>
+      <p>Beleza, <br> cosméticos <br> & cuidados especiais</p>
+    </div>
+    <div class="inicio-imagem">
+      <img src="./imagens/Rectangle 12.jpg" alt="">
+      <img src="./imagens/Rectangle 13.jpg" alt="">
+      <img src="./imagens/Rectangle 14.jpg" alt="">
+    </div>
+  </section>
+
 
   <section class="agende" id="agende">
     <div class="agende-texto">
       <h2>Cuide de sua beleza hoje mesmo!</h2>
     </div>
     <div class="agende-imagens">
-      <img src="./imagens/agende1.png" alt="">
-      <img src="./imagens/agende2.png" alt="">
-      <img src="./imagens/agende3.png" alt="">
+      <img src="./imagens/agende1.png" width="250" height="250" alt="">
+      <img src="./imagens/agende2.png" width="250" height="250" alt="">
+      <img src="./imagens/agende3.png" width="250" height="250" alt="">
     </div>
     <div class="valores">
       <a href="">Confira os valores</a>
-      <img src="./imagens/icon1.svg" alt="">
+      <img src="./imagens/iconeflecha.svg" width="40" height="40" alt="">
     </div>
     <div class="agende-botao">
-      <a href="">Agende por aqui</a>
+      <a href="https://api.whatsapp.com/send/?phone=5517997439658&text&type=phone_number&app_absent=0">Agende por aqui</a>
     </div>
   </section>
 
-  <section class="cursos" id="cursos"></section>
-  <section class="sobre" id="sobre"></section>
-  <section class="contato" id="contato"></section>
+  <section class="sobre" id="sobre">
+    <img src="./imagens/sobremim.png" width="625" height="700" alt="">
+    <div class="sobre-texto">
+      <h2>Olá meu nome é <br> <span>Cassandra Rodrigues</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit, nibh in pellentesque luctus, libero nulla cursus nunc, et vehicula neque dolor ac dolor. Nullam at diam nisl. Donec in ultricies diam. Suspendisse potenti. Suspendisse at lacinia mauris. Maecenas vitae urna id purus viverra tincidunt. </p>
+    </div>
+  </section>
 
+  <footer class="contato" id="contato">
+    <div class="contato-parte1">
+      <p>Quer saber mais sobre os cuidados da beleza?</p>
+      <h3>Assine nossa <span>newsletter</span></h3>
+      <form action="">
+        <div class="formulario-footer">
+          <label for="nome"><input type="text" name="nome" id="nome" placeholder="Insira seu nome" required></label>
+          <label for="email"><input type="email" name="email" id="email" placeholder="Insira seu E-mail" required></label>
+        </div>
+        <input class="botao" type="submit" id="submit">
+      </form>
+    </div>
 
-  
+    <div class="contato-parte2">
+      <div class="redes-sociais">
+        <a href="https://m.facebook.com/profile.php?id=100054293240020&sk=videos&_rdr"><img src="./imagens/facebook.png" width="60" height="60" alt=""></a>
+        <a href="https://www.instagram.com/cassandra_rodriguesss/"><img src="./imagens/instagram.png" width="60" height="60" alt=""></a>
+        <a href=""><img src="./imagens/whatsapp.png" width="60" height="60" alt=""></a>
+      </div>
+      <div class="endereco">
+        <img src="./imagens/localizacao.png" width="60" height="60" alt="">
+        <p>Rua 15 de Novembro, 310. Vila Durant. <br> São José do Rio Preto, SP.</p>
+      </div>
+      <div class="logotipo-footer">
+        <img src="./imagens/logotipo.svg" width="150" height="150" alt="">
+      </div>
+    </div>
+
+    <p class="footer-direitos">© Todos os direitos reservados.</p>
+  </footer>
 
 
 </body>
